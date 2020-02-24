@@ -30,7 +30,7 @@ uint32_t delayMS;
 void setup() {
   Serial.begin(9600);
   // Initialize device.
-  dht.begi
+  dht.begin();
   Serial.println(F("DHTxx Unified Sensor Example"));
   // Print temperature sensor details.
   sensor_t sensor;
